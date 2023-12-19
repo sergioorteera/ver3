@@ -1,0 +1,51 @@
+<nz-layout>
+  <nz-sider [nzWidth]="323">
+
+    <!-- Imagen y titulo del header del menú lateral -->
+    <nz-header class="header-menu">
+      <div class="row">
+        <div class="col-2">
+          <img class="image-menu" src="assets/images/logo-menu.png" />
+        </div>
+        <div class="col-10">
+          <h1 class="tittle-menu mt-4 ms-1">División de Unidad de Salud</h1>
+        </div>
+      </div>
+    </nz-header>
+
+    <!-- Menú lateral -->
+    <ul nz-menu nzMode="inline">
+      <li nz-submenu nzTitle="Aseguramiento" nzIcon="appstore">
+        <ul>
+          <li nz-submenu nzTitle="Afiliaciones">
+            <ul>
+              <li routerLink="./solicitud-afiliacion" nz-menu-item>Solicitud de afiliación</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
+
+  </nz-sider>
+
+
+  <nz-layout>
+
+    <!-- header del contenido -->
+    <nz-header class="header-content">
+      <div class="row mx-1">
+        <div class="col-4">Header</div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+      </div>
+    </nz-header>
+
+    <!-- contenido -->
+    <nz-content>
+      <router-outlet></router-outlet>
+    </nz-content>
+
+  </nz-layout>
+</nz-layout>

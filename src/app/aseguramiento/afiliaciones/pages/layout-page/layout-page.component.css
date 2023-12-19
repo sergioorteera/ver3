@@ -1,0 +1,67 @@
+:host {
+  text-align: center;
+}
+
+nz-content {
+  background: rgb(255, 255, 255);
+  color: #000000;
+  min-height: 120px;
+  line-height: 120px;
+  margin: 30px;
+  border-radius: 14px;
+}
+
+nz-layout {
+  margin-bottom: 48px;
+  height: 100%;
+  background: #B1B0B4;
+}
+
+nz-layout nz-layout,
+nz-layout:last-child {
+  margin: 0;
+}
+
+.header-menu {
+  height: 110px;
+  background: #000086;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+}
+
+.header-content{
+  height: 100px;
+  background: #ffffff;
+  color: #000086;
+  padding: 0px;
+}
+
+nz-footer {
+  line-height: 1.5;
+}
+
+nz-sider {
+  background: #000086;
+  color: #fff;
+  line-height: 120px;
+}
+
+nz-menu {
+  padding-top: 20px;
+}
+
+.tittle-menu{
+  font-family: "myGaramond";
+  font-size: 16px;
+}
+
+.image-menu{
+  height: 56px;
+  width: 36px;
+  padding: 0px;
+}
+

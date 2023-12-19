@@ -1,0 +1,25 @@
+{
+  "Personas": [
+    {
+      "id":"1",
+      "primerNombre":"Héctor",
+      "segundoNombre":"Fabio",
+      "primerApellido":"Meneses",
+      "segundoApellido":"Ramirez",
+      "tipoRH":"POSITIVO",
+      "tipoSangre":"A"
+    },
+    {
+      "id":"2",
+      "primerNombre":"Sergio",
+      "segundoNombre":"Fabio",
+      "primerApellido":"Meneses",
+      "segundoApellido":"Ramirez",
+      "tipoRH":"POSITIVO",
+      "tipoSangre":"A"
+    }
+  ]
+}
+
+
+
