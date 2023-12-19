@@ -1,31 +1,43 @@
-<div class="container mt-5">
 
-  <div class="row">
-    <h2 class="tituloForm">1. Información del área de afiliaciones de la unidad de salud</h2>
+<div class="m-5">
+
+  <div class="row m-3">
+    <h2>1. <span class="tituloForm">Información del área de afiliaciones de la unidad de salud</span></h2>
   </div>
-  <div class="row">
+
+  <div class="row m-3">
+
     <div class="col-3">
-      <nz-date-picker class="w-100"></nz-date-picker>
+      <nz-date-picker class="w-100" nzPlaceHolder="Fecha de ingreso al SGSSS"></nz-date-picker>
     </div>
+
     <div class="col-3">
-      <nz-date-picker class="w-100"></nz-date-picker>
-    </div>
-    <div class="col-3">
-      <input nz-input placeholder="large size" nzSize="default" />
-    </div>
-    <div class="col-3">
-      <nz-select class="w-100" nzMode="default" [nzPlaceHolder]="'Seleccionar'">
+      <nz-select class="w-100" nzMode="default" nzPlaceHolder="Tipo de afiliación">
         <nz-option nzValue="opcion1" nzLabel="Opción 1"></nz-option>
         <nz-option nzValue="opcion2qw" nzLabel="Opción 2"></nz-option>
       </nz-select>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <input nz-input placeholder="large size" nzSize="default" />
+
+    <div class="col-3">
+      <input nz-input placeholder="Número de radicación" nzSize="default" />
     </div>
+
+    <div class="col-3">
+      <nz-date-picker class="w-100" nzPlaceHolder="Fecha de radicación"></nz-date-picker>
+    </div>
+
+  </div>
+
+  <div class="row m-3">
+
+    <div class="col-md-6">
+      <input nz-input placeholder="Observaciones" nzSize="default" />
+    </div>
+
   </div>
 
 </div>
+
+
 
 

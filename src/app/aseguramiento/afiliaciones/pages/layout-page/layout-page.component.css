@@ -1,12 +1,7 @@
-:host {
-  text-align: center;
-}
 
 nz-content {
   background: rgb(255, 255, 255);
   color: #000000;
-  min-height: 120px;
-  line-height: 120px;
   margin: 30px;
   border-radius: 14px;
 }
@@ -17,14 +12,12 @@ nz-layout {
   background: #B1B0B4;
 }
 
-nz-layout nz-layout,
-nz-layout:last-child {
-  margin: 0;
-}
+
 
 .header-menu {
   height: 110px;
-  background: #000086;
+  background: rgb(0, 0, 102
+  );
   color: #ffffff;
   display: flex;
   text-align: center;
@@ -36,7 +29,8 @@ nz-layout:last-child {
 .header-content{
   height: 100px;
   background: #ffffff;
-  color: #000086;
+  color: rgb(0, 0, 102
+  );
   padding: 0px;
 }
 
@@ -45,7 +39,8 @@ nz-footer {
 }
 
 nz-sider {
-  background: #000086;
+  background: rgb(0, 0, 102
+  );
   color: #fff;
   line-height: 120px;
 }
