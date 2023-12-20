@@ -1,1 +1,105 @@
-<p>form-grupo-familiar works!</p>
+
+<div class="m-5">
+
+  <div class="row m-3">
+    <h2>1. <span class="tituloForm">Datos de beneficiarios</span></h2>
+  </div>
+  <div class="row m-3">
+    <h5>Gestión grupo familiar</h5>
+  </div>
+  <div class="row m-3">
+    <nz-alert nzType="info" nzMessage="Antes de solicitar una afiliación, complete los campos requeridos."></nz-alert>
+  </div>
+
+  <div class="row m-3">
+
+    <div class="col-3">
+      <nz-select class="w-100" nzMode="default" nzPlaceHolder="Tipo de afiliación">
+        <nz-option nzValue="opcion1" nzLabel="Opción 1"></nz-option>
+        <nz-option nzValue="opcion2qw" nzLabel="Opción 2"></nz-option>
+      </nz-select>
+    </div>
+
+    <div class="col-3">
+      <nz-select class="w-100" nzMode="default" nzPlaceHolder="Tipo de afiliación">
+        <nz-option nzValue="opcion1" nzLabel="Opción 1"></nz-option>
+        <nz-option nzValue="opcion2qw" nzLabel="Opción 2"></nz-option>
+      </nz-select>
+    </div>
+
+    <div class="col-3">
+      <button nz-button nzType="default" [nzSize]="'large'" nzShape="round">
+        <span nz-icon nzType="download"></span>
+        Asociar cónyuge
+      </button>
+    </div>
+
+  </div>
+
+  <div class="row m-3">
+    <h5>Inclusión de beneficiarios</h5>
+  </div>
+
+  <div class="row m-3">
+
+    <div class="col-3">
+      <nz-input-group [nzSuffix]="suffixIconSearch">
+        <input type="text" nz-input placeholder="input search text" />
+      </nz-input-group>
+      <ng-template #suffixIconSearch>
+        <span nz-icon nzType="search"></span>
+      </ng-template>
+    </div>
+
+    <div class="col-3">
+      <button nz-button nzType="default" [nzSize]="'large'" nzShape="round">
+        <span nz-icon nzType="download"></span>
+        Añadir beneficiario
+      </button>
+    </div>
+
+  </div>
+
+  <div class="row m-3">
+    <nz-table #basicTable>
+      <thead>
+        <tr>
+          <th>Tipo de identificación</th>
+          <th>Número identificación</th>
+          <th>Nombres y apellidos</th>
+          <th>Fecha de nacimiento</th>
+          <th>Estado</th>
+          <th>Accciones</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </nz-table>
+  </div>
+
+  <div class="row m-3">
+
+    <div class="col-4">
+      <button nz-button nzType="primary" [nzSize]="'default'" nzShape="round">
+        <span nz-icon nzType="download"></span>
+        Atrás
+      </button>
+    </div>
+    <div class="col-4">
+      <button nz-button nzType="primary" [nzSize]="'default'" nzShape="round">
+        <span nz-icon nzType="download"></span>
+        Cancelar
+      </button>
+    </div>
+    <div class="col-4">
+      <button nz-button nzType="primary" [nzSize]="'default'" nzShape="round">
+        <span nz-icon nzType="download"></span>
+        Siguiente
+      </button>
+    </div>
+
+
+  </div>
+
+</div>
